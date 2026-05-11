@@ -225,13 +225,49 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Celda',
+      significado:
+        'Espacio individual de la hoja de cálculo donde se ingresan datos.',
+    },
+    {
+      termino: 'Columna',
+      significado: 'Conjunto vertical de celdas identificado con letras.',
+    },
+    {
+      termino: 'Fila',
+      significado: 'Conjunto horizontal de celdas identificado con números.',
+    },
+    {
+      termino: 'Filtro',
+      significado:
+        'Herramienta que permite seleccionar registros según criterios.',
+    },
+    {
+      termino: 'Formato condicional',
+      significado:
+        'Opción que aplica estilos automáticos según reglas establecidas.',
+    },
+    {
+      termino: 'Fórmula',
+      significado: 'Expresión que realiza cálculos automáticos en Excel.',
+    },
+    {
+      termino: 'Función',
+      significado: 'Fórmula predefinida que facilita operaciones específicas.',
+    },
+    {
+      termino: 'Gráfico',
+      significado: 'Representación visual de datos numéricos.',
+    },
+    {
+      termino: 'Rango',
+      significado: 'Grupo de celdas seleccionadas para trabajar en conjunto.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Santos, D. (18 de 06 de 2025). HubSpot. Para qué sirve Excel, principales características y cómo funciona.',
       link: '',
     },
   ],
