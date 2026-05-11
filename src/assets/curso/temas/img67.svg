@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89.445" height="89.444" viewBox="0 0 89.445 89.444">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7e079"/>
+      <stop offset="1" stop-color="#e3822c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eef3fa"/>
+      <stop offset="1" stop-color="#b5d2ee"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1205628" data-name="Group 1205628" transform="translate(-504.051 -2097)">
+    <g id="Group_1204923" data-name="Group 1204923" transform="translate(-517.916 -995.655)">
+      <g id="Group_1200255" data-name="Group 1200255" transform="translate(1021.967 3092.655)">
+        <g id="Group_1187152" data-name="Group 1187152" transform="translate(0 0)">
+          <g id="Group_1185946" data-name="Group 1185946">
+            <g id="Group_1184280" data-name="Group 1184280">
+              <g id="Group_1182168" data-name="Group 1182168">
+                <g id="Group_1178877" data-name="Group 1178877">
+                  <g id="Group_1111311" data-name="Group 1111311">
+                    <g id="Group_1098742" data-name="Group 1098742" transform="translate(0 0)">
+                      <g id="Rectangle_400898" data-name="Rectangle 400898" transform="translate(0.001 0)" fill="#b8a9f1" stroke="#7f75a8" stroke-width="1" opacity="0.859">
+                        <rect width="89.444" height="89.444" rx="44.722" stroke="none"/>
+                        <rect x="0.5" y="0.5" width="88.444" height="88.444" rx="44.222" fill="none"/>
+                      </g>
+                      <g id="Rectangle_400907" data-name="Rectangle 400907" transform="translate(0 0)" fill="none" stroke="#7f75a8" stroke-width="1">
+                        <rect width="89.444" height="89.444" rx="44.722" stroke="none"/>
+                        <rect x="0.5" y="0.5" width="88.444" height="88.444" rx="44.222" fill="none"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="menos" transform="translate(512.496 2104.971)">
+      <g id="Group_1205627" data-name="Group 1205627" transform="translate(8.927 8.927)">
+        <circle id="Ellipse_13679" data-name="Ellipse 13679" cx="28" cy="28" r="28" transform="translate(0.073 -0.423)" fill="url(#linear-gradient)"/>
+        <path id="Path_1262978" data-name="Path 1262978" d="M138.468,234.934a3.18,3.18,0,1,0,0-6.359h-28.16a3.18,3.18,0,0,0,0,6.359Z" transform="translate(-96.564 -203.93)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+      </g>
+      <path id="Path_1262979" data-name="Path 1262979" d="M50.832,32.645H22.672a4.107,4.107,0,1,0,0,8.214h28.16a4.107,4.107,0,1,0,0-8.214Zm0,6.359H22.672a2.252,2.252,0,1,1,0-4.5h28.16a2.252,2.252,0,1,1,0,4.5ZM36.752,8A28.752,28.752,0,1,0,65.5,36.752,28.784,28.784,0,0,0,36.752,8Zm26.9,28.752a26.9,26.9,0,1,1-26.9-26.9A26.927,26.927,0,0,1,63.649,36.752Z"/>
+    </g>
+  </g>
+</svg>

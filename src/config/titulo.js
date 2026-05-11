@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Uso de herramientas ofimáticas - Microsoft Excel'

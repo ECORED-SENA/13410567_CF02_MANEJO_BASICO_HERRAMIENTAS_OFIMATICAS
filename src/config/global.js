@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Uso de herramientas ofimáticas - Microsoft Excel',
+    Description:
+      'Este componente formativo permite reconocer, comprender y aplicar las herramientas de Microsoft Excel, mediante el uso de funciones, fórmulas y herramientas de análisis de datos. Se desarrollan habilidades para la organización, procesamiento e interpretación de información, facilitando la toma de decisiones en contextos académicos y laborales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,13 +36,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Hoja de cálculo – Microsoft Excel',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Interfaz y entorno de trabajo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Cinta de opciones y organización de herramientas',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,14 +55,119 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Gestión y organización de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Ordenamiento y filtrado de información',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Formato de celdas (numérico, texto, fecha)',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Uso de tablas estructuradas',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Formulas y funciones esenciales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Estructura de una fórmula',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Referencias relativas, absolutas y mixtas',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Funciones básicas (SUMA, PROMEDIO, CONTAR)',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Funciones lógicas (SI)',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Funciones de búsqueda (BUSCARV, BUSCARX)',
+            hash: 't_3_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Análisis y representación de datos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Análisis de datos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Uso de filtros avanzados',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Introducción a tablas dinámicas',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Representación gráfica de datos',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Herramientas de automatización y control',
+            hash: 't_4_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Aplicación práctica análisis de información',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Organización de datos en una hoja de cálculo',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Aplicación de fórmulas para el cálculo de resultados',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Generación de gráficos para la interpretación de datos',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Presentación de resultados',
+            hash: 't_5_4',
+          },
+        ],
       },
     ],
     subMenu: [
