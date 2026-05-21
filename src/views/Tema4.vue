@@ -33,7 +33,7 @@
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Interpretación de la información"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/podcast/podcast.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
       .col-xl-auto.d-none.d-xl-block
@@ -432,7 +432,7 @@
     p.mb-5 Se les invita a revisar el video #[b Creación y uso básico de tablas dinámicas en Microsoft Excel], donde profundizarán qué es una tabla dinámica, cómo crearla y el uso de filtros, filas, columnas y valores para analizar información.
     figure(data-aos="zoom-in")
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/UKufmj0KKV4?si=vJ137fH8JNE6uqij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption(data-aos="zoom-in") #[b Video]. Tutorial tabla dinámica.    
     Separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -639,7 +639,7 @@
       .col-xl-10
         .caja-tema1-11(data-aos="zoom-in")
           h5 Ejemplo práctico
-          p Una empresa comercial registra información de ventas por ciudad, producto, cantidad, precio y valor total. Con estos datos, en Excel se construye una tabla dinámica para resumir la información y un gráfico de columnas para comparar el comportamiento de cada producto. Este procedimiento facilita identificar cuáles artículos presentan mayor volumen de ventas y apoya la toma de decisiones
+          p Una empresa comercial registra información de ventas por ciudad, producto, cantidad, precio y valor total. Con estos datos, en Excel se construye una tabla dinámica para resumir la información y un gráfico de columnas para comparar el comportamiento de cada producto. Este procedimiento facilita identificar cuáles artículos presentan mayor volumen de ventas y apoya la toma de decisiones.
           .row.justify-content-center
             .col-xl-10
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
@@ -783,7 +783,7 @@
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 Opciones de protección
-                p La protección de hojas ofrece diversas alternativas para resguardar la información y controlar los cambios realizados en la hoja de cálculo, entre las principales se encuentran:
+                p La protección de hojas ofrece diversas alternativas para resguardar la información y controlar los cambios realizados en la hoja de cálculo; entre las principales se encuentran:
                 ul.fa-ul.estilo___ul.mb-0
                   li.mb-0
                     span.fa-li

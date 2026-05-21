@@ -94,7 +94,7 @@
           li.mb-0
             span.fa-li
               i.fas.fa-check-circle
-            | #[b Número]: permite definir rangos, por ejemplo entre 1 y 100. 
+            | #[b Número]: permite definir rangos, por ejemplo, entre 1 y 100. 
           li.mb-0
             span.fa-li
               i.fas.fa-check-circle
@@ -174,11 +174,11 @@
             li.mb-0
               span.fa-li
                 i.fas.fa-check-circle
-              | Primero por #[b Ciudad]. 
+              | Primero por Ciudad. 
             li.mb-0
               span.fa-li
                 i.fas.fa-check-circle
-              | Luego por #[b Ventas].
+              | Luego por Ventas.
           .row.justify-content-center
             .col-xl-7
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
@@ -430,7 +430,7 @@
       .col-xl-10
         .caja-tema1-11(data-aos="zoom-in")
           h5 Ejemplo práctico
-          p En una tabla de inventario, al convertir el rango en tabla se activan filtros automáticos, se conserva el formato aplicado y las fórmulas se replican automáticamente en nuevas filas.
+          p En una tabla de inventario, al convertir el rango en tabla, se activan filtros automáticos, se conserva el formato aplicado y las fórmulas se replican automáticamente en nuevas filas.
           .row.justify-content-center.mb-3
             .col-xl-10
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")

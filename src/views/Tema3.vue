@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Formulas y funciones esenciales
+      h1 Fórmulas y funciones esenciales
     .row.justify-content-center.align-items-center.mb-5
       .col-xl.mb-4.mb-lg-0
         .caja-tema1.ajuste-tema1(data-aos="fade-right")
@@ -20,7 +20,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-6
         .caja-tema2-1(data-aos="zoom-in")
-          p.mb-0.text-center La estructura general es la siguiente:#[b =" elemento operador elemento" ]
+          p.mb-0.text-center La estructura general es la siguiente: = #[b  elemento operador elemento ]
     p.mb-5 Los elementos pueden corresponder a valores, referencias de celdas o funciones. A continuación, se presentan los componentes esenciales de una fórmula:
     .row.justify-content-center.mb-5
       .col-xl-10

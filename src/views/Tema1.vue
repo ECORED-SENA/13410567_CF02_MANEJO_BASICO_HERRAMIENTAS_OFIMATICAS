@@ -16,7 +16,7 @@
     p.mb-5 A continuación, se presenta un video sobre la importancia y aplicaciones de Microsoft Excel, destacando sus principales funciones y su utilidad en diferentes áreas académicas, administrativas, financieras y empresariales.
     figure(data-aos="zoom-in").mb-0
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/hXrYUdz3m0U?si=Q5JOrMyb_AHD4nOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption(data-aos="zoom-in") #[b Video]. Importancia y aplicaciones de Microsoft Excel.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -487,7 +487,7 @@
         figure
           img(src="@/assets/curso/temas/img9.svg" style="max-width: 60px").m-auto
       .col
-        h3 Area de trabajo: celdas, filas, columnas y hojas
+        h3 Área de trabajo: celdas, filas, columnas y hojas
     p.mb-5 El área de trabajo en #[b Microsoft Excel] es el espacio principal donde se realiza la gestión, organización y análisis de la información. Está estructurada en forma de cuadrícula, compuesta por celdas organizadas en filas y columnas, lo que permite almacenar y procesar datos de manera ordenada. El dominio de este entorno es fundamental, ya que constituye la base para la aplicación de fórmulas, funciones y herramientas de análisis.
     .bg-slider.mb-5
       .px-5
@@ -593,15 +593,15 @@
                   li.mb-0
                     span.fa-li
                       i.fas.fa-check-circle
-                    | Hoja 1: Ventas. 
+                    | Hoja 1: ventas. 
                   li.mb-0
                     span.fa-li
                       i.fas.fa-check-circle
-                    | Hoja 2: Inventario. 
+                    | Hoja 2: inventario. 
                   li.mb-0
                     span.fa-li
                       i.fas.fa-check-circle
-                    | Hoja 3: Reportes.
+                    | Hoja 3: reportes.
               .col-xl-6
                 .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                   h5 Figura 14.

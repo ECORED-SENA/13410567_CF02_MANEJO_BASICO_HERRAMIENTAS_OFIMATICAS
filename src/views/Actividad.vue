@@ -17,39 +17,38 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario de conocimientos en Microsoft Excel',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar la comprensión del aprendiz sobre el uso de Microsoft Excel, incluyendo la interfaz, gestión de datos, fórmulas, funciones y análisis de información, mediante la resolución de un cuestionario.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué es Microsoft Excel?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Una hoja de cálculo para organizar datos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Un programa para editar videos digitales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Una red social para empresas globales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un navegador para buscar sitios web.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +57,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: '¿Cuál es la función principal de la cinta de opciones?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Mostrar mensajes del sistema operativo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Organizar herramientas en pestañas y grupos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Guardar archivos automáticamente siempre.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Cambiar idioma del computador completo.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +87,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Cómo se identifican las columnas en Excel?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Con números consecutivos simples.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Con símbolos especiales variados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Con letras del alfabeto.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Con colores predeterminados fijos.',
               esCorrecta: false,
             },
           ],
@@ -119,30 +117,29 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: '¿Cómo se identifican las filas en Excel?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Con letras del alfabeto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Con palabras descriptivas largas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Con códigos automáticos únicos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Con números consecutivos.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -150,28 +147,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿Qué representa una celda en Excel?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Un archivo guardado externo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'La intersección entre fila y columna.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un gráfico de barras simple.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Una carpeta del sistema.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +177,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué símbolo inicia una fórmula en Excel?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Porcentaje siempre obligatorio.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Asterisco de multiplicación directa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Signo igual inicial.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Diagonal invertida especial.',
               esCorrecta: false,
             },
           ],
@@ -211,30 +207,29 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Cuál función permite sumar valores?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Promedio de resultados numéricos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Buscar datos en tablas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Contar celdas vacías.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'SUMA de rangos numéricos.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -242,29 +237,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Qué función calcula la media aritmética?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'CONTAR datos numéricos ingresados.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'PROMEDIO de un rango.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'SI condición verdadera.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'BUSCARV por columnas.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +267,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: '¿Qué función cuenta celdas numéricas?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'BUSCARX datos relacionados directos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Formato condicional automático visual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'CONTAR valores numéricos existentes.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'PROMEDIO de resultados finales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,20 +297,29 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Qué hace la función SI?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Ordena registros alfabéticamente siempre.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Inserta gráficos automáticamente rápido.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Protege hojas con clave.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evalúa condiciones y devuelve resultados.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -315,20 +327,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Cuál es una referencia absoluta?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'A1 como referencia variable.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'B2 como dato relativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '$A$1 como referencia fija.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'C3 como rango abierto.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +357,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Qué hace la tecla F4 en fórmulas?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Elimina archivos seleccionados hoy.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Guarda libro sin cambios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cambia tipos de referencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Cierra el programa Excel.',
               esCorrecta: false,
             },
           ],
@@ -357,19 +387,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Qué permite el filtro en Excel?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Cambiar color del fondo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Mostrar registros según criterios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Insertar imágenes decorativas nuevas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dividir hojas en partes.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +417,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué permite el ordenamiento?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Ocultar columnas sin criterio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Organizar datos por criterios definidos.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Crear macros automáticas simples.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Proteger archivos compartidos externos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,20 +447,179 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Qué formato representa valores financieros?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Formato general predeterminado básico.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Formato texto sin cálculos.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Formato moneda para valores.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Formato fecha del sistema.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué caracteriza una tabla estructurada?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'No permite usar filtros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solo admite una fila.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Bloquea fórmulas internas siempre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Expande datos automáticamente.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Para qué sirve una tabla dinámica?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Escribir textos extensos largos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Resumir y analizar datos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Cambiar fondo del libro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reproducir archivos multimedia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué gráfico muestra tendencias en el tiempo?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Gráfico circular de sectores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Gráfico de barras dobles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Gráfico de líneas continuas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Gráfico tridimensional libre.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué hace la validación de datos?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Duplica hojas automáticamente siempre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Inserta comentarios ocultos rápidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Restringe entradas incorrectas permitidas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Convierte tablas en gráficos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Qué permite proteger una hoja?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cambiar fuente automáticamente sola.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aumentar tamaño del archivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar fórmulas masivamente rápido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Restringir cambios no autorizados.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

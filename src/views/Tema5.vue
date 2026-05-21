@@ -116,7 +116,7 @@
             li.mb-0
               span.fa-li
                 i.fas.fa-check-circle
-              | #[b Uso de títulos claros]: mejora orientación del lector. 
+              | #[b Uso de títulos claros]: mejora la orientación del lector. 
             li.mb-0
               span.fa-li
                 i.fas.fa-check-circle
@@ -139,7 +139,7 @@
           h4 Caso práctico – análisis de información en Excel
           p.mb-0 Se invita a leer el documento #[b Caso práctico – análisis de información en Excel], donde se aborda el desarrollo de un ejercicio aplicado en Microsoft Excel orientado al análisis de datos.
         .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_1_Frecuencias_muestreo_agua_consumo_humano.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/anexo1.docx')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
