@@ -16,7 +16,7 @@
     p.mb-5 A continuación, se presenta un video sobre la importancia y aplicaciones de Microsoft Excel, destacando sus principales funciones y su utilidad en diferentes áreas académicas, administrativas, financieras y empresariales.
     figure(data-aos="zoom-in").mb-0
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/hXrYUdz3m0U?si=Q5JOrMyb_AHD4nOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4M-U80606lM?si=G4yWC_335fzlc3Oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption(data-aos="zoom-in") #[b Video]. Importancia y aplicaciones de Microsoft Excel.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
