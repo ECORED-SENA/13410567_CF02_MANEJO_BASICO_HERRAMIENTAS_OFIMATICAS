@@ -347,7 +347,7 @@ export default {
         },
         {
           nombre: 'German Acosta Ramos',
-          cargo: 'Locución',
+          cargo: 'Locución ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
