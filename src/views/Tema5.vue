@@ -139,7 +139,7 @@
           h4 Caso práctico – análisis de información en Excel
           p.mb-0 Se invita a leer el documento #[b Caso práctico – análisis de información en Excel], donde se aborda el desarrollo de un ejercicio aplicado en Microsoft Excel orientado al análisis de datos.
         .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/anexo1.docx')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_Caso_Practico_Analisis_Informacion_Excel.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 

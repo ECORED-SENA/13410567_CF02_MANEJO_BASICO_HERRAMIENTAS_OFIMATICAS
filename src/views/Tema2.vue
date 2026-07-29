@@ -186,20 +186,12 @@
                 span Aplicación de filtros y ordenamiento de datos en hoja de cálculo
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/img50.png', alt='Tabla de datos con menús desplegables de filtro y opciones de orden ascendente o descendente aplicadas a registros. ').m-auto
-    p.mb-5 En este video se explicará cómo organizar información en Microsoft Excel mediante dos herramientas fundamentales: el ordenamiento simple y el ordenamiento multinivel.
-    .caja-tema1-12.mb-5(data-aos="flip-up")
-      .row.align-items-center
-        .col-xl-auto.mb-4.mb-lg-0(data-aos="fade-right")
-          figure
-            img(src='@/assets/curso/temas/img43.svg', alt='' style="max-width: 85px").m-auto
-        .col-xl.mb-4.mb-lg-0
-          h4 Ordenamiento simple y multinivel
-          p.mb-0 En este video se explicará cómo organizar información en Microsoft Excel mediante dos herramientas fundamentales: el ordenamiento simple y el ordenamiento multinivel.
-        .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="('https://www.youtube.com/watch?v=6fUnZBP-f8s&t=25s ')" target="_blank" type="website")
-            span Ver video
-            i.fas.fa-link
-    .caja-tema1-4.mb-5(data-aos="fade-right")
+    p.mb-4 En este video se explicará cómo organizar información en Microsoft Excel mediante dos herramientas fundamentales: el ordenamiento simple y el ordenamiento multinivel.
+    figure(data-aos="zoom-in").mb-5
+      .video.mb-1
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/6fUnZBP-f8s?si=QTcdEjVcpt9z33eT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(data-aos="zoom-in") #[b Video]. Ordenamiento simple y multinivel.
+    .caja-tema1-4.mb-5.mt-2(data-aos="fade-right")
       .col-lg-auto
         figure
           img(src="@/assets/curso/temas/img9.svg" style="max-width: 60px").m-auto

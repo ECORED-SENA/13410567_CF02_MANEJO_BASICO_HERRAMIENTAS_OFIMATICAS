@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p A continuación, se presenta una síntesis de la temática estudiada en el componente formativo..
+    p A continuación, se presenta una síntesis de la temática estudiada en el componente formativo:
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre uso de herramientas ofimáticas en Microsoft Excel que organiza categorías principales como funciones, interfaz, herramientas, funciones básicas y usos, con subtemas como tablas, fórmulas, celdas, ordenar, filtrar, SUMA, PROMEDIO, CONTAR y aplicaciones académicas, administrativas, financieras y empresariales.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

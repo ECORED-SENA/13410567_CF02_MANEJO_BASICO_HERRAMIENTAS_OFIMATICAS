@@ -147,7 +147,7 @@
       .row(titulo="Pestañas de hojas").ajuste-cajaAcordion
         p.mb-3 Ubicadas en la parte inferior del libro. Permiten crear, renombrar y organizar múltiples hojas dentro de un mismo archivo.
       .row(titulo="Barra de estado").ajuste-cajaAcordion
-        p.mb-3 Situada en la parte inferior de la ventana. Presenta información rápida como suma, promedio, conteo y nivel de zoom.
+        p.mb-3 Situada en la parte inferior de la ventana. Presenta información rápida como suma, promedio, conteo y nivel de #[i zoom].
     .row.justify-content-center.mb-5
       .col-xl-10
         .caja-tema1-1(data-aos="zoom-in")
@@ -202,7 +202,7 @@
         .col-xl.mb-4.mb-lg-0
           .caja-tema1-7.mb-3(data-aos="fade-right")   
             h5.mb-0 Inicio
-          p.mb-0 de edición y formato. Incluye copiar, pegar, cambiar fuente, alinear contenido y aplicar estilos.
+          p.mb-0 De edición y formato. Incluye copiar, pegar, cambiar fuente, alinear contenido y aplicar estilos.
         .col-xl-auto.col-md-9
           .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
             h5 Figura 3.
@@ -274,7 +274,7 @@
         .col-xl.mb-4.mb-lg-0
           .caja-tema1-7.mb-3(data-aos="fade-right")   
             h5.mb-0 Vista
-          p.mb-0 Permite modificar la forma de trabajo del documento. Incluye zoom, vistas de hoja y organización de ventanas.
+          p.mb-0 Permite modificar la forma de trabajo del documento. Incluye #[i zoom], vistas de hoja y organización de ventanas.
         .col-xl-auto.col-md-9
           .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
             h5 Figura 9.
@@ -656,7 +656,7 @@
               span.fa-li
                 i.fas.fa-check-circle
               | Cada tipo de dato corresponde a una columna. 
-          p.mb-0 Para calcular el total puede utilizarse la fórmula:#[b  = B2*C2] 
+          p.mb-0 Para calcular el total puede, utilizarse la fórmula:#[b  = B2*C2] 
           p Esto permite realizar cálculos automáticos de manera rápida y organizada.
           .row.justify-content-center
             .col-xl-9
@@ -679,19 +679,11 @@
           span Aplicación de formatos numéricos en hoja de cálculo 
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/img42.png', alt='Hoja de cálculo con valores presentados en formatos número, moneda, porcentaje y fecha para mejorar la lectura de datos. ').m-auto
-    p.mb-5 En este video se abordará un concepto fundamental para el manejo de hojas de cálculo: los tipos de datos en Microsoft Excel:
-    .caja-tema1-12.mb-5(data-aos="flip-up")
-      .row.align-items-center
-        .col-xl-auto.mb-4.mb-lg-0(data-aos="fade-right")
-          figure
-            img(src='@/assets/curso/temas/img43.svg', alt='' style="max-width: 85px").m-auto
-        .col-xl.mb-4.mb-lg-0
-          h4 Tipos de datos
-          p.mb-0 En este video se abordará un concepto fundamental para el manejo de hojas de cálculo: los tipos de datos en Microsoft Excel:
-        .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="('https://www.youtube.com/watch?v=7nQVcBi3-co&t=31s ')" target="_blank" type="website")
-            span Ver video
-            i.fas.fa-link
+    p.mb-4 En este video se abordará un concepto fundamental para el manejo de hojas de cálculo: los tipos de datos en Microsoft Excel:
+    figure(data-aos="zoom-in").mb-4
+      .video.mb-1
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7nQVcBi3-co?si=buOSwmcaTmUfve9K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(data-aos="zoom-in") #[b Video]. Tipos de datos.
     p.mb-5 A continuación, se presentan los principales tipos de datos utilizados en Excel.
     .row.justify-content-center.mb-5
       .col-xl-10

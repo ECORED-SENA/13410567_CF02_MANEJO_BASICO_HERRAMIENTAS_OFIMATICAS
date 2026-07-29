@@ -429,7 +429,7 @@
               figure
                 img(src='@/assets/curso/temas/img116.jpg', alt='').m-auto
     p Las tablas dinámicas constituyen una de las herramientas más potentes de #[b Excel] para el análisis de datos, ya que integran organización, cálculo y flexibilidad en un solo recurso. Su dominio resulta esencial para procesos administrativos, financieros, logísticos y estadísticos.
-    p.mb-5 Se les invita a revisar el video #[b Creación y uso básico de tablas dinámicas en Microsoft Excel], donde profundizarán qué es una tabla dinámica, cómo crearla y el uso de filtros, filas, columnas y valores para analizar información.
+    p.mb-5 Se les invita a revisar el video #[b Ejercicios prácticos en Microsoft Excel], donde profundizarán qué es una tabla dinámica, cómo crearla y el uso de filtros, filas, columnas y valores para analizar información.
     figure(data-aos="zoom-in")
       .video.mb-1
         iframe(width="560" height="315" src="https://www.youtube.com/embed/UKufmj0KKV4?si=vJ137fH8JNE6uqij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

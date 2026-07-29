@@ -51,7 +51,6 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
@@ -196,7 +195,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/13410567_CF02_DU.pdf',
+        download: 'downloads/13410567_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -260,6 +259,25 @@ export default {
     },
   ],
   referencias: [
+    {
+      referencia:
+        'Santos, D. (18 de 06 de 2025). HubSpot. Para qué sirve Excel, principales características y cómo funciona.',
+      link: '',
+    },
+    {
+      referencia: 'Microsoft. (2024). Ayuda y aprendizaje de Excel.',
+      link: 'https://support.microsoft.com/es-es/excel',
+    },
+    {
+      referencia: 'Microsoft. (2024). Funciones de Excel (por categoría).',
+      link:
+        'https://support.microsoft.com/es-es/excel/excel-functions-by-category',
+    },
+    {
+      referencia:
+        'Microsoft Learn. (2024). Examinar todos los cursos, rutas de aprendizaje y módulos.',
+      link: 'https://learn.microsoft.com/es-es/training/browse/?products=excel',
+    },
     {
       referencia:
         'Santos, D. (18 de 06 de 2025). HubSpot. Para qué sirve Excel, principales características y cómo funciona.',
@@ -357,20 +375,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Ricardo Oliveros Zambrano',
-          cargo: 'Validador de recursos educativos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
           nombre: 'Aixa Natalia Sendoya Fernández',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Ricardo Oliveros Zambrano',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -382,12 +394,6 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
