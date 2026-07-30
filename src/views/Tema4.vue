@@ -433,7 +433,7 @@
     figure(data-aos="zoom-in")
       .video.mb-1
         iframe(width="560" height="315" src="https://www.youtube.com/embed/UKufmj0KKV4?si=vJ137fH8JNE6uqij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") #[b Video]. Tutorial tabla dinámica.    
+      figcaption(data-aos="zoom-in") #[b Video]. Ejercicios prácticos en Microsoft Excel
     Separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.4 Representación gráfica de datos

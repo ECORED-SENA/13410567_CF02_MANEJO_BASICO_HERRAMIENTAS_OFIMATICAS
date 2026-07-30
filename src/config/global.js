@@ -261,7 +261,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Santos, D. (18 de 06 de 2025). HubSpot. Para qué sirve Excel, principales características y cómo funciona.',
+        'Frye, C. (2022). Microsoft Excel Step by Step (Office 2021 and Microsoft 365). Microsoft Press.',
       link: '',
     },
     {

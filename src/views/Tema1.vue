@@ -202,7 +202,7 @@
         .col-xl.mb-4.mb-lg-0
           .caja-tema1-7.mb-3(data-aos="fade-right")   
             h5.mb-0 Inicio
-          p.mb-0 De edición y formato. Incluye copiar, pegar, cambiar fuente, alinear contenido y aplicar estilos.
+          p.mb-0 Permite realizar tareas básicas de edición y formato. Incluye copiar, pegar, cambiar fuente, alinear contenido y aplicar estilos.
         .col-xl-auto.col-md-9
           .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
             h5 Figura 3.
@@ -656,7 +656,7 @@
               span.fa-li
                 i.fas.fa-check-circle
               | Cada tipo de dato corresponde a una columna. 
-          p.mb-0 Para calcular el total puede, utilizarse la fórmula:#[b  = B2*C2] 
+          p.mb-0 Para calcular el total, puede utilizarse la fórmula:#[b  = B2*C2] 
           p Esto permite realizar cálculos automáticos de manera rápida y organizada.
           .row.justify-content-center
             .col-xl-9
